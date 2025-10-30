@@ -1,47 +1,46 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class DialogueController : MonoBehaviour
-
-
-
+public class Dialogue : MonoBehaviour
 {
     public TextMeshProUGUI textComponent;
-    public float textSpeed;
-    public float characterPerSecond = 90;
     public string[] lines;
-    private int _index;
+    public float textSpeed;
 
+    private int index;
+    
     void Start()
     {
         textComponent.text = string.Empty;
         StartDialogue();
     }
-
-
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
-            NextLine();
-        }
-        else
-        {
-            StopAllCoroutines();
-            textComponent.text = lines[_index];
+            if (textComponent.text == lines[index])
+            {
+                NextLine();
+            }
+            else
+            {
+                StopAllCoroutines();
+                textComponent.text = lines[index];
+            }
         }
     }
 
     void StartDialogue()
     {
-        _index = 0;
+        index = 0;
         StartCoroutine(TypeLine());
     }
 
     IEnumerator TypeLine()
     {
-        foreach (char c in lines[_index].ToCharArray())
+        foreach (char c in lines[index].ToCharArray())
         {
             textComponent.text += c;
             yield return new WaitForSeconds(textSpeed);
@@ -50,9 +49,9 @@ public class DialogueController : MonoBehaviour
 
     void NextLine()
     {
-        if (_index < lines.Length - 1)
+        if (index < lines.Length - 1)
         {
-            _index++;
+            index++;
             textComponent.text = string.Empty;
             StartCoroutine(TypeLine());
         }
@@ -62,6 +61,3 @@ public class DialogueController : MonoBehaviour
         }
     }
 }
-
-
-
