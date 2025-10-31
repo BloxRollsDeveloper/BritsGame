@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class ChoiceController : MonoBehaviour
 {
@@ -7,25 +8,30 @@ public class ChoiceController : MonoBehaviour
     public GameObject Button;
     public GameObject Button2;
     public int Choice;
+    
+    public Dialogue dialogueController;
 
     public void Button1()
     {
-        TextBox.GetComponent<Text>().text = "Simple Test.";
+        Debug.Log("Button1 clicked!"); 
         Choice = 1;
+        
+        
+        if (dialogueController != null)
+        {
+            //dialogueController.RestartDialogueWithChoice();
+        }
     }
 
     public void Button2Method()
     {
-        TextBox.GetComponent<Text>().text = "Simple Test 2.";
+        Debug.Log("Button2 clicked!"); 
         Choice = 2;
-    }
-
-    void Update()
-    {
-        if (Choice >= 1)
+        
+       
+        if (dialogueController != null)
         {
-            Button.SetActive(false);
-            Button2.SetActive(false);
+            //dialogueController.RestartDialogueWithChoice();
         }
     }
 }
