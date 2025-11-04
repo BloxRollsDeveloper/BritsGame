@@ -1,37 +1,33 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Rendering;
 
-public class MiniGamePLayerCtrl : MonoBehaviour
+public class MiniGamePlayerCtrl : MonoBehaviour
 {
     public float moveSpeed;
-    public float left;
-    public float right;
-
-    public float horizontalAxis;
+    
     public Rigidbody2D _rigidbody2D;
-
+    public GameObject bulletPrefab;
+    public Transform bulletSpawn;
+    
+    private InputSystem _input;
+    void Start()
+    {
+        _input = GetComponent<InputSystem>();
+        _rigidbody2D = GetComponent<Rigidbody2D>();
+    }
     void Update()
     {
-        if (Keyboard.current.aKey.isPressed)
-        {
-            left = -1f;
-        }
-        else  
-        {
-            left = 0f;
-        }
-        if (Keyboard.current.dKey.isPressed)
-        {
-            right = 1f;
-        }
-        else  
-        {
-            right = 0f;
-        }
-
-        horizontalAxis = left + right;
         
-        _rigidbody2D.linearVelocity = new Vector2(horizontalAxis, 0f) * moveSpeed;
+    }
+
+    private void FixedUpdate()
+    {
+        if (_input.Attack)
+        {
+            Instantiate(bulletPrefab, bulletSpawn.position, Quaternion.identity); 
+        }
+        _rigidbody2D.linearVelocityX = (_input.Horizontal * moveSpeed);
     }
 }
