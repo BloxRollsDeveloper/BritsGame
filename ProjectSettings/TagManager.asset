@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Dude
+  - Bullet
   layers:
   - Default
   - TransparentFX
