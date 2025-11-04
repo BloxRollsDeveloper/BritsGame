@@ -11,5 +11,9 @@ public class DialogueInfo : ScriptableObject
     public string[] openingLines;
     
     public string option1, option2;
+    
+    public string[] option1Lines;
+    public string[] option2Lines;
+    
     public string[] closingLines;
 }
