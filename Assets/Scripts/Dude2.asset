@@ -16,9 +16,11 @@ MonoBehaviour:
   portrait: {fileID: 0}
   optionIndex: 0
   openingLines:
-  - gtftgj
-  - gghh
-  - kkkkk
+  - Hello i am Jens, the creator of Minecraft.
+  - This dialogue system is work in progress.
+  - Should be finished by today.
   option1: 
   option2: 
+  option1Lines: []
+  option2Lines: []
   closingLines: []
