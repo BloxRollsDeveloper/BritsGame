@@ -6,7 +6,7 @@ public class BoltCtrl : MonoBehaviour
 
     public float hitCounter = 100;
     public SpriteRenderer spriteRenderer;
-    public static int Count = 2;
+    public int Count = 2;
     private void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
