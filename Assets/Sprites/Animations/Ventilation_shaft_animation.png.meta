@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3cf8e04055b33a3498e20b1a036a60b0
+guid: 4ea4c538099dcbb4986dc7e63a900050
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8876004185457419218
-    second: Kitchen_fireAnimation_0
+      213: -1460880047602558408
+    second: Ventilation_shaft_animation_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Kitchen_fireAnimation_0
+      name: Ventilation_shaft_animation_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,14 +141,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2d3e11397c6ed2b70800000000000000
-      internalID: 8876004185457419218
+      spriteID: 83a91373659e9bbe0800000000000000
+      internalID: -1460880047602558408
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kitchen_fireAnimation_1
+      name: Ventilation_shaft_animation_1
       rect:
         serializedVersion: 2
         x: 160
@@ -163,14 +163,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68b918366cb88204d86fae58673450fb
-      internalID: 1752367447
+      spriteID: 7322276ca94f1d34280b661c329ffd2e
+      internalID: -501353296
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kitchen_fireAnimation_2
+      name: Ventilation_shaft_animation_2
       rect:
         serializedVersion: 2
         x: 320
@@ -185,8 +185,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39564ccc798c82c438a843e65f04e178
-      internalID: -1380381838
+      spriteID: 922e3b1380234f44b99b6cd9bbbe721a
+      internalID: 201602753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ventilation_shaft_animation_3
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 160
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f898b31a287fb554697f07e6e3296000
+      internalID: 573375777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ventilation_shaft_animation_4
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 160
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07db4c7e39cc62e42bb0d482020b3123
+      internalID: -943086895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ventilation_shaft_animation_5
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 160
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca5cd335b79aca4a93eed21b7081fcd
+      internalID: 1457599376
       vertices: []
       indices: 
       edges: []
@@ -195,7 +261,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: ba9290ae652bdc5408add10036a37bfa
+    spriteID: 7039467103d61884fa8f64ebb9fee185
     internalID: 0
     vertices: []
     indices: 
@@ -205,9 +271,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Kitchen_fireAnimation_0: 8876004185457419218
-      Kitchen_fireAnimation_1: 1752367447
-      Kitchen_fireAnimation_2: -1380381838
+      Ventilation_shaft_animation_0: -1460880047602558408
+      Ventilation_shaft_animation_1: -501353296
+      Ventilation_shaft_animation_2: 201602753
+      Ventilation_shaft_animation_3: 573375777
+      Ventilation_shaft_animation_4: -943086895
+      Ventilation_shaft_animation_5: 1457599376
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
