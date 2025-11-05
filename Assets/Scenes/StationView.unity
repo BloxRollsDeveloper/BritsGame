@@ -626,6 +626,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8438412324610761720, guid: 34344acff59d2014aa641b0af2d29130, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 3908646815178946371, guid: e2014e8d22d520042b76573e22a417eb, type: 3}
     - target: {fileID: 8907478869661498024, guid: 34344acff59d2014aa641b0af2d29130, type: 3}
       propertyPath: m_Name
       value: Living quarters
@@ -800,7 +804,7 @@ PrefabInstance:
     - target: {fileID: 8438412324610761720, guid: 34344acff59d2014aa641b0af2d29130, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 1662947178266999759, guid: 67c41736b50806a4eaa47a8e0e80814e, type: 3}
+      objectReference: {fileID: 7272820330044209892, guid: 40a710ce72bfde049aaab7135e3f35b1, type: 3}
     - target: {fileID: 8907478869661498024, guid: 34344acff59d2014aa641b0af2d29130, type: 3}
       propertyPath: m_Name
       value: Kitchen
