@@ -21,9 +21,9 @@ MonoBehaviour:
   - So far you can only click on my box to interact with me.
   option1: Hello Nils
   option2: Bye Nils
-  option1Lines: []
-  option2Lines: []
+  option1Lines:
+  - Hello Player!
+  option2Lines:
+  - Wow how rude.
   closingLines:
-  - Wow how rude 1
-  - Wow how rude 2
-  - Wow how rude 3
+  - Enjoy your day.

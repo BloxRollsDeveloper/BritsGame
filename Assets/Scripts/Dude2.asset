@@ -19,8 +19,14 @@ MonoBehaviour:
   - Hello i am Jens, the creator of Minecraft.
   - This dialogue system is work in progress.
   - Should be finished by today.
-  option1: 
-  option2: 
-  option1Lines: []
-  option2Lines: []
-  closingLines: []
+  option1: Wow! The actual creator of Minecraft?
+  option2: Notch created Minecraft.
+  option1Lines:
+  - 'Yes it''s me! '
+  - I don't take update requests though.
+  option2Lines:
+  - I don't know "Notch"
+  - In fact, we cut him off.
+  closingLines:
+  - Implement this feature now!
+  - Have a nice day.
