@@ -15,7 +15,7 @@ public class ButtonSfxCtrl : MonoBehaviour
 
     void Update()
     {
-        if (_button.)
+        if (_button)
         {
             int randomSound = Random.Range(0, buttonSfx.Length);
             _audioSource.PlayOneShot(buttonSfx[randomSound]);
