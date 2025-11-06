@@ -19,11 +19,18 @@ MonoBehaviour:
   - Hello my name is Nils
   - I am trying to fix this code
   - So far you can only click on my box to interact with me.
+  openingVoiceClips:
+  - {fileID: 8300000, guid: ac4339e09b0230643a5dc7a774c2383a, type: 3}
+  - {fileID: 8300000, guid: c47a4ddb54b6afb44b03973b41bd8367, type: 3}
+  - {fileID: 8300000, guid: 5d7459beef1f5b54698cb4fd152acf71, type: 3}
   option1: Hello Nils
   option2: Bye Nils
   option1Lines:
   - Hello Player!
+  option1VoiceClips: []
   option2Lines:
   - Wow how rude.
+  option2VoiceClips: []
   closingLines:
   - Enjoy your day.
+  closingVoiceClips: []

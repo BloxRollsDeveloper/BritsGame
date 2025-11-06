@@ -19,12 +19,17 @@ MonoBehaviour:
   - "Welcome to the Britt\u2019s spacecraft. Our brand new engineer, I am your tutor,
     I will introduce you to everything on the spacecraft and make sure you can work
     independently.   "
-  - Dp you fancy a cuppa?
+  - Do you fancy a cuppa?
+  openingVoiceClips:
+  - {fileID: 0}
   option1: Yes please mate.
   option2: 
   option1Lines:
   - 
+  option1VoiceClips: []
   option2Lines:
   - 
+  option2VoiceClips: []
   closingLines:
   - 
+  closingVoiceClips: []
