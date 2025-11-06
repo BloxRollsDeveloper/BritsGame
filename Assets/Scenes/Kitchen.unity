@@ -403,6 +403,30 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2073460046 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7586971214313228681, guid: 4334ca814c6df384d8eb595c5199dabc, type: 3}
+  m_PrefabInstance: {fileID: 4111594149519467967}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2073460048 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6335504540585218728, guid: 4334ca814c6df384d8eb595c5199dabc, type: 3}
+  m_PrefabInstance: {fileID: 4111594149519467967}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2073460051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2073460046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 696e7823a87ab7b4b804676a3c4a3d77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 2073460048}
+  kitchenSetOnFire: 0
 --- !u!1001 &2128616270
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -567,7 +591,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7586971214313228681, guid: 4334ca814c6df384d8eb595c5199dabc, type: 3}
+      insertIndex: 3
+      addedObject: {fileID: 2073460051}
   m_SourcePrefab: {fileID: 100100000, guid: 4334ca814c6df384d8eb595c5199dabc, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
