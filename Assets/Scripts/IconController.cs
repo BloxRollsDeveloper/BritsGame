@@ -15,6 +15,11 @@ public class IconController : MonoBehaviour
     {
         SceneManager.LoadScene("MainMenu");
     }
+
+    public void ToCredits()
+    {
+        SceneManager.LoadScene("Credits");
+    }
     public void ToStationView()
     {
         SceneManager.LoadScene("StationView");

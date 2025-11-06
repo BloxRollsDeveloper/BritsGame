@@ -6,7 +6,7 @@ public class BoltCtrl : MonoBehaviour
 
     public float hitCounter = 100;
     public SpriteRenderer spriteRenderer;
-    public int Count = 2;
+    public static int boltCount = 2;
     private void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -16,26 +16,28 @@ public class BoltCtrl : MonoBehaviour
     {
         hitCounter -= 1;
         Destroy(other.gameObject);
-    }
-
-    void Update()
-    {
         if (hitCounter <= 0)
         {
             OnDestroy();
         }
     }
 
+    void Update()
+    {
+      
+    }
+
     private void OnDestroy()
     {
-        Count -= 1;
-        if (Count <= 0)
+        boltCount -= 1;
+        if (boltCount >= 0)
         {
-            
+            Debug.Log(boltCount);
         }
-        else if (Count >= 0)
+        else if (boltCount <= 0)
         {
             Destroy(gameObject);
         }
+        
     }
 }
