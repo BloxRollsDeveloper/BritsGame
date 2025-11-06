@@ -10,15 +10,14 @@ public class ButtonSfxCtrl : MonoBehaviour
     void Start()
     {
         _button = GetComponent<Button>();
+        _button.onClick.AddListener(TaskOnClick);
        _audioSource = GetComponent<AudioSource>(); 
+       
     }
-
-    void Update()
+    
+    void TaskOnClick()
     {
-        if (_button)
-        {
-            int randomSound = Random.Range(0, buttonSfx.Length);
-            _audioSource.PlayOneShot(buttonSfx[randomSound]);
-        }
+        int randomSound = Random.Range(0, buttonSfx.Length);
+        _audioSource.PlayOneShot(buttonSfx[randomSound]);
     }
 }
