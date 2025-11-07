@@ -9,9 +9,11 @@ public class KitchenFireCtrl : MonoBehaviour
     public bool endSceneAnimation = false;
     public GameObject[] buttons;
     public AudioClip fireAlarm;
+    private AudioSource _audioSource;
     void Start()
     {
         animator = GetComponent<Animator>();
+        _audioSource = GetComponent<AudioSource>();
         
     }
 
@@ -42,5 +44,9 @@ public class KitchenFireCtrl : MonoBehaviour
     public void onAnimationEnd()
     {
         SceneManager.LoadScene("EndScreen");
+    }
+    public void StartFireAlarm()
+    {
+        _audioSource.PlayOneShot(fireAlarm);  
     }
 }

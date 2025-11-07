@@ -868,6 +868,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   miniGameWon: 0
   gameActivated: 0
+  minigameObjects:
+  - {fileID: 2092495641809279191}
+  - {fileID: 3449720383298991287}
+  - {fileID: 4225459523487908544}
+  - {fileID: 6542670439511313204}
+  - {fileID: 5578634408696022301}
+  - {fileID: 3468180282972539413}
+  - {fileID: 1931563272292418039}
+  - {fileID: 7426037820280741031}
+  - {fileID: 4046207424654714945}
+  childrenEnabled: 0
 --- !u!1001 &298213020582439557
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1258,6 +1269,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 019b62bad4f7e9c41a55a9b9d5dd738e, type: 3}
+--- !u!1 &3449720383298991287 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1949720321564810990, guid: 019b62bad4f7e9c41a55a9b9d5dd738e, type: 3}
+  m_PrefabInstance: {fileID: 3805843106718214745}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8903056350233636916 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5719308402773514861, guid: 019b62bad4f7e9c41a55a9b9d5dd738e, type: 3}

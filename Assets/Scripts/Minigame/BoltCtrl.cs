@@ -22,21 +22,14 @@ public class BoltCtrl : MonoBehaviour
         }
     }
 
-    void Update()
-    {
-      
-    }
 
     private void OnDestroy()
     {
         boltCount -= 1;
-        if (boltCount >= 0)
+        
+        if (boltCount <= 0)
         {
-            Debug.Log(boltCount);
-        }
-        else if (boltCount <= 0)
-        {
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
         
     }
