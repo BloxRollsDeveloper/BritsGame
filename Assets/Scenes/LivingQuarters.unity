@@ -119,6 +119,63 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &348820786
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5278055078463454648, guid: 46b8cd556aeb4a742ae95a51ed7674c6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.1760889
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278055078463454648, guid: 46b8cd556aeb4a742ae95a51ed7674c6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.7310726
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278055078463454648, guid: 46b8cd556aeb4a742ae95a51ed7674c6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.665073
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278055078463454648, guid: 46b8cd556aeb4a742ae95a51ed7674c6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278055078463454648, guid: 46b8cd556aeb4a742ae95a51ed7674c6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278055078463454648, guid: 46b8cd556aeb4a742ae95a51ed7674c6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278055078463454648, guid: 46b8cd556aeb4a742ae95a51ed7674c6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278055078463454648, guid: 46b8cd556aeb4a742ae95a51ed7674c6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278055078463454648, guid: 46b8cd556aeb4a742ae95a51ed7674c6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278055078463454648, guid: 46b8cd556aeb4a742ae95a51ed7674c6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8972854268976557708, guid: 46b8cd556aeb4a742ae95a51ed7674c6, type: 3}
+      propertyPath: m_Name
+      value: MinigameObjects
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 46b8cd556aeb4a742ae95a51ed7674c6, type: 3}
 --- !u!1 &455448838
 GameObject:
   m_ObjectHideFlags: 0
@@ -129,8 +186,9 @@ GameObject:
   m_Component:
   - component: {fileID: 455448839}
   - component: {fileID: 455448841}
+  - component: {fileID: 455448843}
+  - component: {fileID: 455448844}
   - component: {fileID: 455448840}
-  - component: {fileID: 455448842}
   m_Layer: 5
   m_Name: LivingQuarersBG
   m_TagString: Untagged
@@ -195,7 +253,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 455448838}
   m_CullTransparentMesh: 1
---- !u!95 &455448842
+--- !u!114 &455448843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 455448838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e82916359ec708444bbec2d85a4aa32a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 455448844}
+--- !u!95 &455448844
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
@@ -205,7 +276,7 @@ Animator:
   m_GameObject: {fileID: 455448838}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 6c07d2901d0c2504084151c3fffd22d5, type: 2}
+  m_Controller: {fileID: 9100000, guid: adcf3cbbaba353d4e87db72413aedb3a, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -338,7 +409,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 34
+  m_SortingOrder: 5
   m_Sprite: {fileID: -634230266056189869, guid: 6cbf80464fa2cbb4db19798cea8d4936, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -838,3 +909,4 @@ SceneRoots:
   - {fileID: 849321435}
   - {fileID: 677100295}
   - {fileID: 2295057069099180167}
+  - {fileID: 348820786}
