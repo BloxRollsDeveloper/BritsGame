@@ -8,6 +8,7 @@ public class KitchenFireCtrl : MonoBehaviour
 //To make the kitchen burn, set the "kitchenSetOnFire" bool true
     public bool endSceneAnimation = false;
     public GameObject[] buttons;
+    public GameObject[] npcSprites;
     public AudioClip fireAlarm;
     private AudioSource _audioSource;
     void Start()
@@ -33,9 +34,13 @@ public class KitchenFireCtrl : MonoBehaviour
 
         if (endSceneAnimation)
         {
-            foreach (GameObject button in buttons)
+            foreach (GameObject obj in buttons)
             {
-                button.SetActive(false);
+                obj.SetActive(false);
+            }
+            foreach (GameObject obj in npcSprites)
+            {
+                obj.SetActive(false);
             }
             animator.SetBool("EndScene", true);
         }
