@@ -267,6 +267,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1398d5463108e6d449301812396fb588, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &742453720 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1924616419927535727, guid: 4334ca814c6df384d8eb595c5199dabc, type: 3}
+  m_PrefabInstance: {fileID: 4111594149519467967}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1046652988
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -529,6 +534,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 2073460048}
   kitchenSetOnFire: 0
+  endSceneAnimation: 0
+  buttons:
+  - {fileID: 1177246170}
+  - {fileID: 742453720}
+  fireAlarm: {fileID: 0}
 --- !u!82 &2073460052
 AudioSource:
   m_ObjectHideFlags: 0
