@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Serialization;
 
 [CreateAssetMenu (fileName = "DialogueInfo", menuName = "DialogueInfo", order = 1)]
 public class DialogueInfo : ScriptableObject
@@ -17,6 +18,9 @@ public class DialogueInfo : ScriptableObject
     public AudioClip[] option1VoiceClips;
     public string[] option2Lines;
     public AudioClip[] option2VoiceClips;
+    
+    public string[] secondLines;
+    public AudioClip[] secondVoiceClips;
     
     public string[] closingLines;
     public AudioClip[] closingVoiceClips;
