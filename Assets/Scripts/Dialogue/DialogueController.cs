@@ -19,6 +19,9 @@ public class Dialogue : MonoBehaviour
     private bool showingChoices = false;
     private bool inBranch = false;
     
+    
+    
+    
     private Camera _mainCamera;
     
     void Start()
@@ -88,6 +91,7 @@ public class Dialogue : MonoBehaviour
         currentConversation = currentNPC.openingLines;
         dialogueText.text = currentConversation[index];
         index++;
+        AudioClip voiceClip = currentNPC.openingVoiceClips[0];
     }
 
     void NextLine()
@@ -147,6 +151,7 @@ public class Dialogue : MonoBehaviour
         index = 0;
         dialogueActive = true;
         dialogueText.enabled = true;
+        AudioClip voiceClip = currentNPC.option1VoiceClips[0];
         
         if (currentConversation.Length > 0)
         {
@@ -173,6 +178,7 @@ public class Dialogue : MonoBehaviour
         index = 0;
         dialogueActive = true;
         dialogueText.enabled = true;
+        AudioClip voiceClip = currentNPC.option2VoiceClips[0];
         
         if (currentConversation.Length > 0)
         {
@@ -193,6 +199,7 @@ public class Dialogue : MonoBehaviour
         index = 0;
         dialogueActive = true;
         dialogueText.enabled = true;
+        AudioClip voiceClip = currentNPC.closingVoiceClips[0];
         
         if (currentConversation.Length > 0)
         {
