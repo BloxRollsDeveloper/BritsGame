@@ -9,7 +9,7 @@ public class Dialogue : MonoBehaviour
 {
     public TMP_Text dialogueText;
     public Button option1, option2;
-    public TMP_Text option1Text, option2Text; 
+    private TMP_Text option1Text, option2Text; 
 
    public DialogueInfo currentNPC;
    private string[] currentConversation;
@@ -28,6 +28,8 @@ public class Dialogue : MonoBehaviour
         option1.gameObject.SetActive(false);
         option2.gameObject.SetActive(false);
         
+        option1Text = option1.GetComponentInChildren<TMP_Text>();
+        option2Text = option2.GetComponentInChildren<TMP_Text>();
         
         option1.onClick.AddListener(OnOption1Selected);
         option2.onClick.AddListener(OnOption2Selected);
