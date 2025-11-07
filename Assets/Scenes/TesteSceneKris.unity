@@ -119,31 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &14746571 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1931563272292418039, guid: 46b8cd556aeb4a742ae95a51ed7674c6, type: 3}
-  m_PrefabInstance: {fileID: 4956997376935443309}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &39236261 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3468180282972539413, guid: 46b8cd556aeb4a742ae95a51ed7674c6, type: 3}
-  m_PrefabInstance: {fileID: 4956997376935443309}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &97995139 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4225459523487908544, guid: 46b8cd556aeb4a742ae95a51ed7674c6, type: 3}
-  m_PrefabInstance: {fileID: 4956997376935443309}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &189174722 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7426037820280741031, guid: 46b8cd556aeb4a742ae95a51ed7674c6, type: 3}
-  m_PrefabInstance: {fileID: 4956997376935443309}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &228650151 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6542670439511313204, guid: 46b8cd556aeb4a742ae95a51ed7674c6, type: 3}
-  m_PrefabInstance: {fileID: 4956997376935443309}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &293808700
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -201,16 +176,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60abfde97bc72974cbc8f6d50c29cd67, type: 3}
---- !u!1 &561130083 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4046207424654714945, guid: 46b8cd556aeb4a742ae95a51ed7674c6, type: 3}
-  m_PrefabInstance: {fileID: 4956997376935443309}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &570738018 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2092495641809279191, guid: 46b8cd556aeb4a742ae95a51ed7674c6, type: 3}
-  m_PrefabInstance: {fileID: 4956997376935443309}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &818011105
 GameObject:
   m_ObjectHideFlags: 0
@@ -286,16 +251,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 818011105}
   m_CullTransparentMesh: 1
---- !u!1 &851943870 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5578634408696022301, guid: 46b8cd556aeb4a742ae95a51ed7674c6, type: 3}
-  m_PrefabInstance: {fileID: 4956997376935443309}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1038523837 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3449720383298991287, guid: 46b8cd556aeb4a742ae95a51ed7674c6, type: 3}
-  m_PrefabInstance: {fileID: 4956997376935443309}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1070142610
 GameObject:
   m_ObjectHideFlags: 0
@@ -847,45 +802,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8921434466646100250, guid: 46b8cd556aeb4a742ae95a51ed7674c6, type: 3}
-      propertyPath: minigameObjects.Array.size
-      value: 9
+      propertyPath: childrenEnabled
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8921434466646100250, guid: 46b8cd556aeb4a742ae95a51ed7674c6, type: 3}
-      propertyPath: 'minigameObjects.Array.data[0]'
-      value: 
-      objectReference: {fileID: 570738018}
-    - target: {fileID: 8921434466646100250, guid: 46b8cd556aeb4a742ae95a51ed7674c6, type: 3}
-      propertyPath: 'minigameObjects.Array.data[1]'
-      value: 
-      objectReference: {fileID: 1038523837}
-    - target: {fileID: 8921434466646100250, guid: 46b8cd556aeb4a742ae95a51ed7674c6, type: 3}
-      propertyPath: 'minigameObjects.Array.data[2]'
-      value: 
-      objectReference: {fileID: 97995139}
-    - target: {fileID: 8921434466646100250, guid: 46b8cd556aeb4a742ae95a51ed7674c6, type: 3}
-      propertyPath: 'minigameObjects.Array.data[3]'
-      value: 
-      objectReference: {fileID: 228650151}
-    - target: {fileID: 8921434466646100250, guid: 46b8cd556aeb4a742ae95a51ed7674c6, type: 3}
-      propertyPath: 'minigameObjects.Array.data[4]'
-      value: 
-      objectReference: {fileID: 851943870}
-    - target: {fileID: 8921434466646100250, guid: 46b8cd556aeb4a742ae95a51ed7674c6, type: 3}
-      propertyPath: 'minigameObjects.Array.data[5]'
-      value: 
-      objectReference: {fileID: 39236261}
-    - target: {fileID: 8921434466646100250, guid: 46b8cd556aeb4a742ae95a51ed7674c6, type: 3}
-      propertyPath: 'minigameObjects.Array.data[6]'
-      value: 
-      objectReference: {fileID: 14746571}
-    - target: {fileID: 8921434466646100250, guid: 46b8cd556aeb4a742ae95a51ed7674c6, type: 3}
-      propertyPath: 'minigameObjects.Array.data[7]'
-      value: 
-      objectReference: {fileID: 189174722}
-    - target: {fileID: 8921434466646100250, guid: 46b8cd556aeb4a742ae95a51ed7674c6, type: 3}
-      propertyPath: 'minigameObjects.Array.data[8]'
-      value: 
-      objectReference: {fileID: 561130083}
     - target: {fileID: 8972854268976557708, guid: 46b8cd556aeb4a742ae95a51ed7674c6, type: 3}
       propertyPath: m_Name
       value: MinigameObjects

@@ -822,7 +822,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5278055078463454648}
-  - component: {fileID: 8921434466646100250}
+  - component: {fileID: 329638866227930903}
+  - component: {fileID: 3758537495798457163}
   m_Layer: 0
   m_Name: MinigameObjects
   m_TagString: Untagged
@@ -854,7 +855,7 @@ Transform:
   - {fileID: 5819671525926866929}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8921434466646100250
+--- !u!114 &329638866227930903
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -866,7 +867,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd48b426da4e5344bb6215e900371e25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  miniGameWon: 0
   gameActivated: 0
   minigameObjects:
   - {fileID: 2092495641809279191}
@@ -879,6 +879,19 @@ MonoBehaviour:
   - {fileID: 7426037820280741031}
   - {fileID: 4046207424654714945}
   childrenEnabled: 0
+--- !u!114 &3758537495798457163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8972854268976557708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c419155369f12147b524e32d1d7ba9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MiniGameWon: 0
 --- !u!1001 &298213020582439557
 PrefabInstance:
   m_ObjectHideFlags: 0

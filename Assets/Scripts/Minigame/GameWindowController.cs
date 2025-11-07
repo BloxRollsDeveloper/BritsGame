@@ -1,13 +1,15 @@
 using UnityEngine;
 
-public class WinCondition : MonoBehaviour
+public class GameWindowController : MonoBehaviour
 {
-    public bool miniGameWon = false;
+ 
     public bool gameActivated = false;
     public GameObject[] minigameObjects;
     public bool childrenEnabled = false;
+    private GameWon _gameWon;
     private void Awake()
     {
+        _gameWon = GetComponent<GameWon>();
         DisableChildren();
     }
 
@@ -21,25 +23,21 @@ public class WinCondition : MonoBehaviour
             
         }
 
-        if (childrenEnabled)
-        {
-            if (GameObject.FindGameObjectsWithTag("Bolt").Length == 0)
-            { 
-                GameWon();
-            }
+        
+        if (GameObject.FindGameObjectsWithTag("Bolt").Length == 0 && childrenEnabled)
+        { 
+            GameWon();
         }
-            
+        
         
     }
 
     void GameWon()
     {
        
-        miniGameWon = true;
+        _gameWon.MiniGameWon = true;
         //add script to change animate state here.;
         DisableChildren();
-        
-        
     }
 
     
