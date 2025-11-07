@@ -19,9 +19,6 @@ public class DialogueInfo : ScriptableObject
     public string[] option2Lines;
     public AudioClip[] option2VoiceClips;
     
-    public string[] secondLines;
-    public AudioClip[] secondVoiceClips;
-    
     public string[] closingLines;
     public AudioClip[] closingVoiceClips;
 }
