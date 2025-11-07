@@ -5,11 +5,11 @@ public class BoltCtrl : MonoBehaviour
 {
 
     public float hitCounter = 100;
-    public SpriteRenderer spriteRenderer;
-    public static int boltCount = 2;
+
+
     private void Start()
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
+       
     }
 
     private void OnCollisionEnter2D(Collision2D other)
@@ -25,12 +25,6 @@ public class BoltCtrl : MonoBehaviour
 
     private void OnDestroy()
     {
-        boltCount -= 1;
-        
-        if (boltCount <= 0)
-        {
-            gameObject.SetActive(false);
-        }
-        
+        gameObject.SetActive(false);
     }
 }
