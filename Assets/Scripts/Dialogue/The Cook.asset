@@ -13,25 +13,43 @@ MonoBehaviour:
   m_Name: The Cook
   m_EditorClassIdentifier: 
   characterName: Senior Engineer
-  portrait: {fileID: 0}
+  portrait: {fileID: -8854749208287615061, guid: 6b6958c15be178f49a2b60516b1761ab, type: 3}
   optionIndex: 0
   openingLines:
-  - "Welcome to the Britt\u2019s spacecraft. Our brand new engineer, I am your tutor,
-    I will introduce you to everything on the spacecraft and make sure you can work
-    independently.   "
-  - Do you fancy a cuppa?
+  - "You guys are finally here, Do you know how long that communication machine\u2019s
+    been beeping? at least A hundred years!!!"
+  - "Player: hello mate, how are you\uFF1FCan I have beans on toast for dinner?"
+  - "I AM NOT YOUR COOK. I\u2019m not good! Only Frozen pizza for dinner."
   openingVoiceClips:
-  - {fileID: 0}
-  option1: Yes please mate.
-  option2: Yeah man
+  - {fileID: 8300000, guid: 15c27c01ea07bed42873a01135595d57, type: 3}
+  - {fileID: 8300000, guid: 11384bed4f90fab43a204c9544764ff6, type: 3}
+  - {fileID: 8300000, guid: 4e19c2421f16fac46833ca66d222c4c2, type: 3}
+  option1: Hope you feel well soon.
+  option2: Oh my deepest apologies.
   option1Lines:
-  - No prob
+  - Thanks for the sarcasm YOU FOCKING ARSEHOLE
   option1VoiceClips: []
   option2Lines:
-  - yeah yeah shit yeah
+  - Thank you, my good sir.
   option2VoiceClips: []
-  secondLines: []
-  secondVoiceClips: []
   closingLines:
-  - 
-  closingVoiceClips: []
+  - "Senior engineer\uFF1ADear fellow, don't worry. What can my apprentice do for
+    you?"
+  - 'Player: We are good at fixing things, we are engineers afterall.'
+  - 'Senior engineer: Leave me out of it. This is your job.'
+  - 'Cook: About time! You better fix it! The stove is broken!'
+  - 'Player: The stove? Easy, innit!'
+  - "Cook: What the hell are you doing! I can\u2019t make dinner now! All the people
+    on the ship will be starving!!!"
+  - "Senior engineer: I just beg of you, please, don\u2019t touch anything else!"
+  - 'Player: I am capable of putting out this hated substance! I am sure.'
+  - "Cook: Fuck you, stupid Brit!!! I\u2019m Norwegian. I just wanna throw you out
+    into space!  I AM NOT YOUR COOK!!"
+  - Player:Norwegian?
+  - "Senior engineer: So both the Chinese and Norwegians think the brits are stupid!
+    Mother fucker\uFF01\uFF01\uFF01"
+  - Chinese?
+  - "(Oh bonkers, I\u2019m gobsmacked, these two people are spies, innit!!!!!) "
+  closingVoiceClips:
+  - {fileID: 8300000, guid: 02462273a1fb5d3488c2be6b05f85ab1, type: 3}
+  - {fileID: 8300000, guid: 4458df8afa314764d9b9dc7384f4d2f7, type: 3}

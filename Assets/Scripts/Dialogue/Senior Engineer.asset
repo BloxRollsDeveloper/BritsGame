@@ -22,16 +22,16 @@ MonoBehaviour:
   - Do you fancy a cuppa?
   openingVoiceClips:
   - {fileID: 0}
-  option1: Yes please mate.
-  option2: 
+  option1: 'Flipping bloody muppet, What are you doing!? '
+  option2: ...
   option1Lines:
+  - Oh this is the new fashion on the spacecraft, cream tea! Would you like to have
+    a taste?
   - 
   option1VoiceClips: []
   option2Lines:
   - 
   option2VoiceClips: []
-  secondLines: []
-  secondVoiceClips: []
   closingLines:
   - 
   closingVoiceClips: []
