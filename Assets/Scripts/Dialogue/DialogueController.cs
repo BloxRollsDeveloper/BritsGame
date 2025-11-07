@@ -152,6 +152,7 @@ public class Dialogue : MonoBehaviour
         dialogueActive = true;
         dialogueText.enabled = true;
         AudioClip voiceClip = currentNPC.option1VoiceClips[0];
+        AudioSource _audioSource;
         
         if (currentConversation.Length > 0)
         {
@@ -179,6 +180,7 @@ public class Dialogue : MonoBehaviour
         dialogueActive = true;
         dialogueText.enabled = true;
         AudioClip voiceClip = currentNPC.option2VoiceClips[0];
+        AudioSource _audioSource;
         
         if (currentConversation.Length > 0)
         {
@@ -200,6 +202,7 @@ public class Dialogue : MonoBehaviour
         dialogueActive = true;
         dialogueText.enabled = true;
         AudioClip voiceClip = currentNPC.closingVoiceClips[0];
+        AudioSource _audioSource;
         
         if (currentConversation.Length > 0)
         {
