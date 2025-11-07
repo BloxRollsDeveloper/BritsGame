@@ -30,6 +30,8 @@ MonoBehaviour:
   option2Lines:
   - 
   option2VoiceClips: []
+  secondLines: []
+  secondVoiceClips: []
   closingLines:
   - 
   closingVoiceClips: []
