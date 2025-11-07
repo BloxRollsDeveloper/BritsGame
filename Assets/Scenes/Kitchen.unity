@@ -538,7 +538,7 @@ MonoBehaviour:
   buttons:
   - {fileID: 1177246170}
   - {fileID: 742453720}
-  fireAlarm: {fileID: 0}
+  fireAlarm: {fileID: 8300000, guid: 953a16178feb4ac46bbabf1bf1795812, type: 3}
 --- !u!82 &2073460052
 AudioSource:
   m_ObjectHideFlags: 0

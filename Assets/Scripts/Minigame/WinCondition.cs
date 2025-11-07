@@ -3,12 +3,12 @@ using UnityEngine;
 public class WinCondition : MonoBehaviour
 {
     public bool miniGameWon = false;
-    public bool gameActivated;
-    
+    public bool gameActivated = false;
+    public GameObject[] minigameObjects;
+    public bool childrenEnabled = false;
     private void Awake()
     {
-        gameActivated = false;
-        gameObject.SetActive(false);
+        DisableChildren();
     }
 
     // Update is called once per frame
@@ -16,24 +16,49 @@ public class WinCondition : MonoBehaviour
     {
         if (gameActivated)
         {
-            gameObject.SetActive(true);
+            EnableChildren();
             gameActivated = false;
             
         }
 
-        if (GameObject.FindGameObjectsWithTag("Bolt").Length == 0)
-        { 
-            gameWon();
+        if (childrenEnabled)
+        {
+            if (GameObject.FindGameObjectsWithTag("Bolt").Length == 0)
+            { 
+                GameWon();
+            }
         }
+            
         
     }
 
-    void gameWon()
+    void GameWon()
     {
+       
         miniGameWon = true;
         //add script to change animate state here.;
-        gameObject.SetActive(false);
+        DisableChildren();
         
         
+    }
+
+    
+    
+    void DisableChildren()
+    {
+        foreach (GameObject miniGameObjs in minigameObjects)
+        {
+            miniGameObjs.SetActive(false);
+        }
+        childrenEnabled = false;
+    }
+
+    void EnableChildren()
+    {
+        foreach (GameObject miniGameObjs in minigameObjects)
+        {
+            miniGameObjs.SetActive(true);
+        }
+        childrenEnabled = true;
     }
 }
