@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
@@ -9,7 +10,16 @@ public class ChoiceController : MonoBehaviour
     public GameObject Button2;
     public int Choice;
     
+    public GameObject minigame;
+    
     public Dialogue DialogueController;
+
+    private void Start()
+    {
+        GameWindowController gameActivated = minigame.GetComponent<GameWindowController>();
+        gameActivated.gameActivated = true;
+    }
+    
 
     public void Button1()
     {

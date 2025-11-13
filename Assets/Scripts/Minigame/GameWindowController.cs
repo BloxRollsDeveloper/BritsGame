@@ -3,7 +3,7 @@ using UnityEngine;
 public class GameWindowController : MonoBehaviour
 {
  
-    public bool gameActivated = false;
+    public bool gameActivated;
     public GameObject[] minigameObjects;
     public bool childrenEnabled = false;
     private GameWon _gameWon;
