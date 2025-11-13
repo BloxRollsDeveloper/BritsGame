@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Senior Engineer
   m_EditorClassIdentifier: 
   characterName: Senior Engineer
-  portrait: {fileID: 0}
+  portrait: {fileID: 7710004575090816295, guid: 48813e86f4fa19042b0dc1fe54ec1948, type: 3}
   optionIndex: 0
   openingLines:
   - "Welcome to the Britt\u2019s spacecraft. Our brand new engineer, I am your tutor,
@@ -33,5 +33,14 @@ MonoBehaviour:
   - 
   option2VoiceClips: []
   closingLines:
-  - 
-  closingVoiceClips: []
+  - emmm, oh, rubbish, mate. I am 100% British. The British never drink tea like
+    this.
+  - (Is she a spy?)
+  - "Senior engineer: How\u2019s the weather in London these days?"
+  - Still raining, innit.
+  - "Hundreds of years of raining, but it doesn\u2019t rain here! Enjoy your space
+    time ~"
+  - "This area is the living area, you can relax here. It is a nice place to stay,
+    isn\u2019t it?"
+  closingVoiceClips:
+  - {fileID: 0}
